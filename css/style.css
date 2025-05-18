@@ -138,8 +138,9 @@ header ul a:hover {
     grid-template-columns: repeat(2, 1fr);
     background-color: rgb(174, 203, 194);
     margin: 1rem;
+
     img {
-        width:100%;
+        width: 100%;
         height: 150px;
         transition: 1s;
         transition-duration: 2s;
@@ -259,10 +260,24 @@ details summary {
 /*--------------------------------------------------------------------*/
 #projects,
 #projects2 {
-    padding: 4.5rem;
+    padding: 7rem 4.5rem;
+
     h2 {
-        margin: 3rem 0;
+        margin-bottom: 2rem;
     }
+
+    .show-more,
+    .show-more i {
+        color: #eadbea;
+        text-shadow: 0 4px 12px rgb(255, 255, 255, .8);
+        float: right;
+        font-size: 1.6rem;
+    }
+
+    .show-more {
+        margin: 2rem 0;
+    }
+
 }
 
 #projects img,
@@ -288,7 +303,7 @@ details summary {
     background-color: rgb(255, 255, 255);
     padding-bottom: 3rem;
     flex-shrink: 0;
-    box-shadow: 0 4px 12px rgb(255, 255, 255,.8);
+    box-shadow: 0 4px 12px rgb(255, 255, 255, .8);
     transition-duration: 2s;
 }
 
@@ -300,10 +315,10 @@ details summary {
 
 .outer_div button {
     display: block;
-    margin:3rem auto;
+    margin: 3rem auto;
 }
 
-.outer_div:hover{
+.outer_div:hover {
     transform: scale(.9);
 }
 
@@ -341,17 +356,18 @@ button:hover {
     padding: 3rem;
     background-color: var(--third_color);
 }
-#contact_me 
-h4
-{
+
+#contact_me h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.1rem;
     color: #464343;
-    p{
+
+    p {
         color: #784b81;
 
     }
 }
+
 .container {
     display: flex;
     justify-content: space-between;
