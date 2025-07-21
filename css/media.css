@@ -125,6 +125,9 @@
         width: 10% !important;
     }
 
+    .projects{
+                padding-bottom:5rem ;
+    }
     /*--------------------------------------*/
 
     #contact_me h2 {
@@ -224,11 +227,6 @@
     #projects2 {
         margin: 3rem 1rem;
         padding: 0 !important;
-
-        .projects {
-            gap: 3rem !important;
-
-        }
     }
 
     #projects .outer_div,
@@ -244,6 +242,9 @@
         margin: 2rem;
     }
 
+         .projects {
+            gap: 3rem !important;
+        }
     /*-----------------------------------------------------*/
     #contact_me h2 {
         padding-top: 7rem;
