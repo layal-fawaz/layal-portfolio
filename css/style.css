@@ -120,7 +120,7 @@ header ul a:hover {
 /*---------------------------------------------hero section--------------------------------*/
 
 #hero {
-    margin: 3rem;
+    margin: 3rem 0;
     gap: 15rem;
     color: rgb(255, 255, 255);
 }
